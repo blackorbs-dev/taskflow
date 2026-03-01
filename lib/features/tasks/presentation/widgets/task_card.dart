@@ -1,7 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:taskflow/core/theming/theme_extensions.dart';
-import 'package:taskflow/features/ai/presentation/widgets/reschedule_task_popup.dart';
 import 'package:taskflow/gen/assets.gen.dart';
 import 'package:taskflow/shared/ui/widgets/menu_item.dart';
 import 'package:taskflow/shared/ui/widgets/svg_icon.dart';
@@ -9,6 +8,7 @@ import 'package:taskflow/translations/locale_keys.g.dart';
 import '../../domain/models/task.dart';
 import '../controller/tasks_event.dart';
 import '../extension.dart';
+import 'reschedule_task_popup.dart';
 import 'task_popup.dart';
 
 class TaskCard extends StatelessWidget {

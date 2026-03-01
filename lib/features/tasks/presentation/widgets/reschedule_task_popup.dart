@@ -10,7 +10,7 @@ import 'package:taskflow/shared/ui/widgets/loading_icon.dart';
 import 'package:taskflow/shared/ui/widgets/popup_container.dart';
 import 'package:taskflow/shared/ui/widgets/svg_icon.dart';
 import 'package:taskflow/translations/locale_keys.g.dart';
-import '../../domain/models/reschedule_info.dart';
+import '../../../ai/domain/models/reschedule_info.dart';
 import '../controller/reschedule_task_notifier.dart';
 
 class RescheduleTaskPopup extends ConsumerWidget {
